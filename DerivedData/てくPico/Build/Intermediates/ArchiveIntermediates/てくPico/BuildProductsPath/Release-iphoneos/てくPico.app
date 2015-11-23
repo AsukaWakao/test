@@ -1,0 +1,1 @@
+/Users/matsumur/Dropbox/Working/tekupico7(acm)/DerivedData/てくPico/Build/Intermediates/ArchiveIntermediates/てくPico/InstallationBuildProductsLocation/Applications/てくPico.app

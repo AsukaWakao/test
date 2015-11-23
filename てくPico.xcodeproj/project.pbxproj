@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F010BAC31BDF7C8100A23B86 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F010BAC21BDF7C8100A23B86 /* logo.png */; settings = {ASSET_TAGS = (); }; };
+		F010BAC41BDF966400A23B86 /* KFhimaji.otf in Resources */ = {isa = PBXBuildFile; fileRef = F010BAB71BDF4C7F00A23B86 /* KFhimaji.otf */; };
+		F01724901AAF8A2300F57552 /* near.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F017248F1AAF8A2300F57552 /* near.mp3 */; };
+		F03708E919F8E4220070ECE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03708E819F8E4220070ECE9 /* AppDelegate.swift */; };
+		F03708EB19F8E4220070ECE9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03708EA19F8E4220070ECE9 /* FirstViewController.swift */; };
+		F03708F019F8E4220070ECE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03708EE19F8E4220070ECE9 /* Main.storyboard */; };
+		F03708F219F8E4220070ECE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03708F119F8E4220070ECE9 /* Images.xcassets */; };
+		F037090119F8E4220070ECE9 /* wakapekoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037090019F8E4220070ECE9 /* wakapekoTests.swift */; };
+		F037090B19F8E5550070ECE9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F037090A19F8E5550070ECE9 /* CoreLocation.framework */; };
+		F037090D19F8F3550070ECE9 /* ThirdViewContoroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037090C19F8F3550070ECE9 /* ThirdViewContoroller.swift */; };
+		F037BE0D1AA75B9500D03302 /* g_90.png in Resources */ = {isa = PBXBuildFile; fileRef = F037BE0A1AA75B9500D03302 /* g_90.png */; };
+		F037BE0E1AA75B9500D03302 /* m_90.png in Resources */ = {isa = PBXBuildFile; fileRef = F037BE0B1AA75B9500D03302 /* m_90.png */; };
+		F037BE0F1AA75B9500D03302 /* p_90.png in Resources */ = {isa = PBXBuildFile; fileRef = F037BE0C1AA75B9500D03302 /* p_90.png */; };
+		F037BE1F1AA79C8B00D03302 /* fan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F037BE1D1AA79C8B00D03302 /* fan.mp3 */; };
+		F04634E01AA4F2E7001BB9A8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F04634DF1AA4F2E7001BB9A8 /* AudioToolbox.framework */; };
+		F04634EA1AA5249B001BB9A8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F04634E91AA5249B001BB9A8 /* AVFoundation.framework */; };
+		F04A4B1A1BC83FCF00FCDA28 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = F04A4B191BC83FCF00FCDA28 /* button.png */; settings = {ASSET_TAGS = (); }; };
+		F069990A1A9D71920057B092 /* Someaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06999091A9D71920057B092 /* Someaction.swift */; };
+		F06FAA0D1BCD1888002AE192 /* momiji.png in Resources */ = {isa = PBXBuildFile; fileRef = F06FAA0C1BCD1888002AE192 /* momiji.png */; settings = {ASSET_TAGS = (); }; };
+		F08B2ED21BE4A5F100AAC8D4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E6E52F1BC521720018228E /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F03708FB19F8E4220070ECE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F03708DB19F8E4220070ECE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F03708E219F8E4220070ECE9;
+			remoteInfo = wakapeko;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C7C5F6E1AC020650075B4D6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3C7C5F701AC0206F0075B4D6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F010BAB71BDF4C7F00A23B86 /* KFhimaji.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KFhimaji.otf; sourceTree = "<group>"; };
+		F010BAC21BDF7C8100A23B86 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		F017248F1AAF8A2300F57552 /* near.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = near.mp3; sourceTree = "<group>"; };
+		F03708E319F8E4220070ECE9 /* てくPico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "てくPico.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03708E719F8E4220070ECE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03708E819F8E4220070ECE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F03708EA19F8E4220070ECE9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		F03708EF19F8E4220070ECE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F03708F119F8E4220070ECE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F03708FA19F8E4220070ECE9 /* てくPicoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "てくPicoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03708FF19F8E4220070ECE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F037090019F8E4220070ECE9 /* wakapekoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wakapekoTests.swift; sourceTree = "<group>"; };
+		F037090A19F8E5550070ECE9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F037090C19F8F3550070ECE9 /* ThirdViewContoroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewContoroller.swift; sourceTree = "<group>"; };
+		F037BE0A1AA75B9500D03302 /* g_90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = g_90.png; sourceTree = "<group>"; };
+		F037BE0B1AA75B9500D03302 /* m_90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = m_90.png; sourceTree = "<group>"; };
+		F037BE0C1AA75B9500D03302 /* p_90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p_90.png; sourceTree = "<group>"; };
+		F037BE1D1AA79C8B00D03302 /* fan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fan.mp3; sourceTree = "<group>"; };
+		F04634DF1AA4F2E7001BB9A8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F04634E91AA5249B001BB9A8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F04A4B191BC83FCF00FCDA28 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		F04A4B1D1BC8C2AE00FCDA28 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		F050397D1A146F6900440A29 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		F06999061A9D22530057B092 /* wakapeko-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wakapeko-Bridging-Header.h"; sourceTree = "<group>"; };
+		F06999091A9D71920057B092 /* Someaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Someaction.swift; sourceTree = "<group>"; };
+		F06FAA0C1BCD1888002AE192 /* momiji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = momiji.png; sourceTree = "<group>"; };
+		F0E6E52F1BC521720018228E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F03708E019F8E4220070ECE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08B2ED21BE4A5F100AAC8D4 /* WebKit.framework in Frameworks */,
+				F04634EA1AA5249B001BB9A8 /* AVFoundation.framework in Frameworks */,
+				F04634E01AA4F2E7001BB9A8 /* AudioToolbox.framework in Frameworks */,
+				F037090B19F8E5550070ECE9 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03708F719F8E4220070ECE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F03708DA19F8E4220070ECE9 = {
+			isa = PBXGroup;
+			children = (
+				F0E6E52F1BC521720018228E /* WebKit.framework */,
+				3C7C5F701AC0206F0075B4D6 /* SystemConfiguration.framework */,
+				3C7C5F6E1AC020650075B4D6 /* Security.framework */,
+				F04634E91AA5249B001BB9A8 /* AVFoundation.framework */,
+				F04634DF1AA4F2E7001BB9A8 /* AudioToolbox.framework */,
+				F06999061A9D22530057B092 /* wakapeko-Bridging-Header.h */,
+				F050397D1A146F6900440A29 /* Social.framework */,
+				F037090A19F8E5550070ECE9 /* CoreLocation.framework */,
+				F03708E519F8E4220070ECE9 /* wakapeko */,
+				F03708FD19F8E4220070ECE9 /* wakapekoTests */,
+				F03708E419F8E4220070ECE9 /* Products */,
+				F017248F1AAF8A2300F57552 /* near.mp3 */,
+				F037BE1D1AA79C8B00D03302 /* fan.mp3 */,
+				F010BAB71BDF4C7F00A23B86 /* KFhimaji.otf */,
+				F010BAC21BDF7C8100A23B86 /* logo.png */,
+				F037BE0A1AA75B9500D03302 /* g_90.png */,
+				F037BE0B1AA75B9500D03302 /* m_90.png */,
+				F04A4B191BC83FCF00FCDA28 /* button.png */,
+				F037BE0C1AA75B9500D03302 /* p_90.png */,
+				F06FAA0C1BCD1888002AE192 /* momiji.png */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		F03708E419F8E4220070ECE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F03708E319F8E4220070ECE9 /* てくPico.app */,
+				F03708FA19F8E4220070ECE9 /* てくPicoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F03708E519F8E4220070ECE9 /* wakapeko */ = {
+			isa = PBXGroup;
+			children = (
+				F03708E819F8E4220070ECE9 /* AppDelegate.swift */,
+				F03708EA19F8E4220070ECE9 /* FirstViewController.swift */,
+				F037090C19F8F3550070ECE9 /* ThirdViewContoroller.swift */,
+				F06999091A9D71920057B092 /* Someaction.swift */,
+				F03708EE19F8E4220070ECE9 /* Main.storyboard */,
+				F03708F119F8E4220070ECE9 /* Images.xcassets */,
+				F03708E619F8E4220070ECE9 /* Supporting Files */,
+			);
+			path = wakapeko;
+			sourceTree = "<group>";
+		};
+		F03708E619F8E4220070ECE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F03708E719F8E4220070ECE9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F03708FD19F8E4220070ECE9 /* wakapekoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F037090019F8E4220070ECE9 /* wakapekoTests.swift */,
+				F03708FE19F8E4220070ECE9 /* Supporting Files */,
+			);
+			path = wakapekoTests;
+			sourceTree = "<group>";
+		};
+		F03708FE19F8E4220070ECE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F03708FF19F8E4220070ECE9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F03708E219F8E4220070ECE9 /* てくPico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F037090419F8E4220070ECE9 /* Build configuration list for PBXNativeTarget "てくPico" */;
+			buildPhases = (
+				F03708DF19F8E4220070ECE9 /* Sources */,
+				F03708E019F8E4220070ECE9 /* Frameworks */,
+				F03708E119F8E4220070ECE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "てくPico";
+			productName = wakapeko;
+			productReference = F03708E319F8E4220070ECE9 /* てくPico.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F03708F919F8E4220070ECE9 /* てくPicoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F037090719F8E4220070ECE9 /* Build configuration list for PBXNativeTarget "てくPicoTests" */;
+			buildPhases = (
+				F03708F619F8E4220070ECE9 /* Sources */,
+				F03708F719F8E4220070ECE9 /* Frameworks */,
+				F03708F819F8E4220070ECE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F03708FC19F8E4220070ECE9 /* PBXTargetDependency */,
+			);
+			name = "てくPicoTests";
+			productName = wakapekoTests;
+			productReference = F03708FA19F8E4220070ECE9 /* てくPicoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F03708DB19F8E4220070ECE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "若尾あすか";
+				TargetAttributes = {
+					F03708E219F8E4220070ECE9 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 42QLY4A7LX;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					F03708F919F8E4220070ECE9 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 42QLY4A7LX;
+						TestTargetID = F03708E219F8E4220070ECE9;
+					};
+				};
+			};
+			buildConfigurationList = F03708DE19F8E4220070ECE9 /* Build configuration list for PBXProject "てくPico" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F03708DA19F8E4220070ECE9;
+			productRefGroup = F03708E419F8E4220070ECE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F03708E219F8E4220070ECE9 /* てくPico */,
+				F03708F919F8E4220070ECE9 /* てくPicoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F03708E119F8E4220070ECE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F010BAC41BDF966400A23B86 /* KFhimaji.otf in Resources */,
+				F04A4B1A1BC83FCF00FCDA28 /* button.png in Resources */,
+				F06FAA0D1BCD1888002AE192 /* momiji.png in Resources */,
+				F037BE0E1AA75B9500D03302 /* m_90.png in Resources */,
+				F03708F019F8E4220070ECE9 /* Main.storyboard in Resources */,
+				F037BE0F1AA75B9500D03302 /* p_90.png in Resources */,
+				F037BE1F1AA79C8B00D03302 /* fan.mp3 in Resources */,
+				F010BAC31BDF7C8100A23B86 /* logo.png in Resources */,
+				F01724901AAF8A2300F57552 /* near.mp3 in Resources */,
+				F037BE0D1AA75B9500D03302 /* g_90.png in Resources */,
+				F03708F219F8E4220070ECE9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03708F819F8E4220070ECE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F03708DF19F8E4220070ECE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03708E919F8E4220070ECE9 /* AppDelegate.swift in Sources */,
+				F069990A1A9D71920057B092 /* Someaction.swift in Sources */,
+				F037090D19F8F3550070ECE9 /* ThirdViewContoroller.swift in Sources */,
+				F03708EB19F8E4220070ECE9 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03708F619F8E4220070ECE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F037090119F8E4220070ECE9 /* wakapekoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F03708FC19F8E4220070ECE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F03708E219F8E4220070ECE9 /* てくPico */;
+			targetProxy = F03708FB19F8E4220070ECE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F03708EE19F8E4220070ECE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F03708EF19F8E4220070ECE9 /* Base */,
+				F04A4B1D1BC8C2AE00FCDA28 /* ja */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F037090219F8E4220070ECE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"TEST_HOST[sdk=*]" = "build/Debug-iphoneos/てくPico.app/てくPico";
+			};
+			name = Debug;
+		};
+		F037090319F8E4220070ECE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "build/Debug-iphoneos/てくPico.app/てくPico";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F037090519F8E4220070ECE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = "";
+				"CODE_SIGN_RESOURCE_RULES_PATH[sdk=*]" = "";
+				INFOPLIST_FILE = wakapeko/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wakanama.wakapeko;
+				PRODUCT_NAME = "てくPico";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "wakapeko-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F037090619F8E4220070ECE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = "";
+				"CODE_SIGN_RESOURCE_RULES_PATH[sdk=*]" = "";
+				INFOPLIST_FILE = wakapeko/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wakanama.wakapeko;
+				PRODUCT_NAME = "てくPico";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "wakapeko-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+				"TEST_HOST[sdk=*]" = "";
+			};
+			name = Release;
+		};
+		F037090819F8E4220070ECE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = wakapekoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wakanama.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "てくPicoTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/てくPico.app/てくPico";
+			};
+			name = Debug;
+		};
+		F037090919F8E4220070ECE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = wakapekoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wakanama.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "てくPicoTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/てくPico.app/てくPico";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F03708DE19F8E4220070ECE9 /* Build configuration list for PBXProject "てくPico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F037090219F8E4220070ECE9 /* Debug */,
+				F037090319F8E4220070ECE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F037090419F8E4220070ECE9 /* Build configuration list for PBXNativeTarget "てくPico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F037090519F8E4220070ECE9 /* Debug */,
+				F037090619F8E4220070ECE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F037090719F8E4220070ECE9 /* Build configuration list for PBXNativeTarget "てくPicoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F037090819F8E4220070ECE9 /* Debug */,
+				F037090919F8E4220070ECE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F03708DB19F8E4220070ECE9 /* Project object */;
+}

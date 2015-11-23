@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8Xc-yw-GCs">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="KFhimaji.otf">
+            <string>KFhimaji</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="XcS-sQ-Mig">
+            <objects>
+                <viewController id="8Xc-yw-GCs" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lVJ-dn-YBE"/>
+                        <viewControllerLayoutGuide type="bottom" id="4eC-M5-vXj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wMv-q1-cqU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="43I-g5-gXX">
+                                <rect key="frame" x="155" y="296" width="291" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="ZbX-EC-Cqf"/>
+                                    <constraint firstAttribute="width" constant="291" id="cZX-dh-TvV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="KFhimaji" family="KFhimaji" pointSize="33"/>
+                                <state key="normal" title="はじめる！" backgroundImage="button.png">
+                                    <color key="titleColor" red="0.51285475130000002" green="0.1145164209" blue="0.087648933809999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="49e-Tb-3d3" kind="show" id="X7f-XX-fEf"/>
+                                </connections>
+                            </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="hP7-cH-FgN">
+                                <rect key="frame" x="150" y="93" width="300" height="75"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xoT-zW-qoI">
+                                <rect key="frame" x="252" y="423" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="64o-dt-lTg"/>
+                                    <constraint firstAttribute="width" constant="97" id="Whr-ff-WGP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="２Fイベントスペースにて受付をしてください。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H2m-Ej-CWr">
+                                <rect key="frame" x="20" y="466" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.9463569181" blue="0.91524618629999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="4eC-M5-vXj" firstAttribute="top" secondItem="H2m-Ej-CWr" secondAttribute="bottom" constant="113" id="4Br-2D-Xty"/>
+                            <constraint firstItem="H2m-Ej-CWr" firstAttribute="leading" secondItem="wMv-q1-cqU" secondAttribute="leadingMargin" id="80u-sB-WWi"/>
+                            <constraint firstItem="hP7-cH-FgN" firstAttribute="top" secondItem="lVJ-dn-YBE" secondAttribute="bottom" constant="73" id="Ks2-4e-N2K"/>
+                            <constraint firstItem="hP7-cH-FgN" firstAttribute="centerX" secondItem="43I-g5-gXX" secondAttribute="centerX" id="XRP-9x-1Wb"/>
+                            <constraint firstItem="xoT-zW-qoI" firstAttribute="top" secondItem="43I-g5-gXX" secondAttribute="bottom" constant="42" id="drv-L0-GGY"/>
+                            <constraint firstItem="H2m-Ej-CWr" firstAttribute="trailing" secondItem="wMv-q1-cqU" secondAttribute="trailingMargin" id="iFb-oQ-gvY"/>
+                            <constraint firstItem="H2m-Ej-CWr" firstAttribute="top" secondItem="xoT-zW-qoI" secondAttribute="bottom" constant="13" id="jdT-Ko-OIS"/>
+                            <constraint firstItem="xoT-zW-qoI" firstAttribute="centerX" secondItem="43I-g5-gXX" secondAttribute="centerX" id="oeM-oe-AWy"/>
+                            <constraint firstItem="H2m-Ej-CWr" firstAttribute="centerX" secondItem="xoT-zW-qoI" secondAttribute="centerX" id="ulJ-kE-esb"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ffb-7a-81k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4683" y="1328"/>
+        </scene>
+        <!--きみのページ-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="てくPico" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tQ2-oL-pgn"/>
+                        <viewControllerLayoutGuide type="bottom" id="cMT-zh-n1n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="きみのページ" image="one" id="acW-dT-cKf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4008" y="1825"/>
+        </scene>
+        <!--ちず-->
+        <scene sceneID="kdv-5p-BMT">
+            <objects>
+                <viewController id="I8L-2c-KzP" customClass="ThirdViewController" customModule="てくPico" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="os8-w7-U9Y"/>
+                        <viewControllerLayoutGuide type="bottom" id="qDq-m5-Gf0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BiH-tS-wLW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eyo-23-XIA">
+                                <rect key="frame" x="0.0" y="58" width="600" height="485"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S7U-l0-ZFG">
+                                <rect key="frame" x="387" y="20" width="193" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="193" id="IxN-Xy-16D"/>
+                                </constraints>
+                                <state key="normal" title="こうしんする" backgroundImage="button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="reload:" destination="I8L-2c-KzP" eventType="touchUpInside" id="OaU-AL-dTz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Eyo-23-XIA" firstAttribute="leading" secondItem="BiH-tS-wLW" secondAttribute="leading" id="2bh-RM-tFX"/>
+                            <constraint firstItem="qDq-m5-Gf0" firstAttribute="top" secondItem="Eyo-23-XIA" secondAttribute="bottom" constant="8" symbolic="YES" id="OBI-hV-py0"/>
+                            <constraint firstAttribute="trailing" secondItem="Eyo-23-XIA" secondAttribute="trailing" id="ca6-SE-vVw"/>
+                            <constraint firstItem="Eyo-23-XIA" firstAttribute="top" secondItem="S7U-l0-ZFG" secondAttribute="bottom" constant="8" symbolic="YES" id="d3B-Jy-uad"/>
+                            <constraint firstItem="S7U-l0-ZFG" firstAttribute="top" secondItem="os8-w7-U9Y" secondAttribute="bottom" id="hGc-EJ-go1"/>
+                            <constraint firstItem="Eyo-23-XIA" firstAttribute="centerY" secondItem="BiH-tS-wLW" secondAttribute="centerY" id="v98-mh-x6L"/>
+                            <constraint firstItem="S7U-l0-ZFG" firstAttribute="trailing" secondItem="BiH-tS-wLW" secondAttribute="trailingMargin" id="xqs-ln-jdJ"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="ちず" image="three" id="x4s-b6-bJh"/>
+                    <connections>
+                        <outlet property="map_view" destination="Eyo-23-XIA" id="Exq-2B-zXZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I2H-hT-rds" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3479" y="2220"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="md2-yc-tQR"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="I8L-2c-KzP" kind="relationship" relationship="viewControllers" id="oH4-H2-q1K"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3082" y="1134"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="button.png" width="250" height="60"/>
+        <image name="logo.png" width="300" height="75"/>
+        <image name="one" width="30" height="30"/>
+        <image name="three" width="30" height="30"/>
+    </resources>
+    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+</document>
